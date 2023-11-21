@@ -1,0 +1,30 @@
+body{
+    background-color: yellowgreen;
+}
+
+h1{
+    background-color: chocolate;
+    color: black;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    border:5px solid blue;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name:Bright_blur;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Bright_blur{
+    from{box-shadow:1px 1px 38px blue;}
+    to{box-shadow:1px 1px 38px white;}
+}
+
+p{
+    font-size: 27.5px;
+}
